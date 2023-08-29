@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 
-def magic_calculation(x, y):
+def magic_calculation(a, b):
     output = 0
     for j in range(2, 5):
         try:
-            if j >= x:
+            if j >= a:
                 raise ValueError('Exceeded limit')
-            output += x ** y / j
+            output += a ** b / j
         except ValueError:
-            output = y + x
+            output = b + a
             break
     return output
 
