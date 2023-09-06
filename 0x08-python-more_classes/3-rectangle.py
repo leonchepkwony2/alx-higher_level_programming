@@ -61,4 +61,3 @@ class Rectangle:
 
         rectangle = ['#' * self.__width for _ in range(self.__height)]
         return ("\n".join(rectangle))
-
