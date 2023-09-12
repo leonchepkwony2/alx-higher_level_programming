@@ -30,7 +30,7 @@ By the end of this project, you should be able to explain:
 ## Resources
 
 * <a href= "https://docs.python.org/3/tutorial/classes.html#inheritance">Inheritance</a>
-* <https://docs.python.org/3/tutorial/classes.html#multiple-inheritance">Multiple inheritance</a>
+* <a href = "https://docs.python.org/3/tutorial/classes.html#multiple-inheritance">Multiple inheritance</a>
 * <a href= "https://www.geeksforgeeks.org/inheritance-in-python/">Inheritance in Python</a>
 * <a href= "https://www.youtube.com/watch?v=d8kCdLCi6Lk">Learn to Program 10 : Inheritance Magic Methods</a>
 
