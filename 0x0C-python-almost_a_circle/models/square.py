@@ -24,7 +24,8 @@ class Square(Rectangle):
         self.height = size
 
     def update(self, *args, **kwargs):
-        """Update the Square's attributes based on arguments and keyword arguments."""
+        """Update the Square's attributes
+        based on arguments and keyword arguments."""
 
         if args:
             # Check if there are arguments and assign them accordingly
