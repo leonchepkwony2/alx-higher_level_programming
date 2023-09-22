@@ -56,7 +56,7 @@ class Base:
 
     @classmethod
     def create(cls, **dictionary):
-        """Class method to create an instance 
+        """Class method to create an instance
         with attributes set from a dictionary."""
         if cls.__name__ == "Rectangle":
             dummy = cls(1, 1)
