@@ -1,0 +1,15 @@
+$(function(){
+	$.ajax({
+		type: 'GET',
+		url: 'https://swapi-api.alx-tools.com/api/films/?format=json',
+		success: function(movies){
+			$.each(movies.results, function(i, movie){
+				$('UL#list_movies').append("<li> " + movie.title + "</li>");
+			});
+		},
+		error: function(error) {
+       		console.error('Error fetching movie data:', error);
+      	}
+	});
+});
+
