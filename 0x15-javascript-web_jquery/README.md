@@ -43,6 +43,12 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - How to listen/bind to DOM events
 - How to listen/bind to user events
 
+## MOre Info
+	```
+	<head>
+    		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	</head>
+	```
 ## Authors
 Leonard Chepkwony
 
